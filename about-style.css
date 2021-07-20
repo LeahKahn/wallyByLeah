@@ -1,0 +1,122 @@
+.about-box {
+    margin: 10vw;
+    padding: 0 10vw 50px;
+}
+
+.photo {
+    width: 20vw;
+}
+
+.hello {
+    font-family: 'Nunito', sans-serif;
+    font-size: 5vw;
+    color: rgb(126, 70, 0);
+    ;
+}
+
+.sentence p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3vw;
+    color: rgb(126, 70, 0);
+}
+
+@media screen and (max-width: 992px) {
+    .photo {
+        width: 50vw;
+    }
+    .hello {
+        font-family: 'Nunito', sans-serif;
+        font-size: 7vw;
+        color: rgb(126, 70, 0);
+        ;
+    }
+    .sentence p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 3vw;
+        color: rgb(126, 70, 0);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-box {
+        margin: 5vw;
+        padding: 0 5vw 50px;
+    }
+    .photo {
+        width: 80vw;
+    }
+    .hello {
+        font-family: 'Nunito', sans-serif;
+        font-size: 10vw;
+        color: rgb(126, 70, 0);
+        ;
+    }
+    .sentence p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 5vw;
+        color: rgb(126, 70, 0);
+    }
+}
+
+
+/* @media screen and (max-width: 620px) {
+    
+    .main-nav {
+        background-color: white;
+        height: 120px;
+      
+    }
+    .icon-size {
+        width: 15px;
+        padding: 5px;
+    }
+    .icon-size:hover {
+        background-color: antiquewhite;
+        border-radius: 50%;
+    }
+    .logo {
+        display: inline;
+        padding-top: 10px;
+        width: 20vw;
+
+        margin: 0 5vw 0 5vw;
+    }
+    .social-container {
+        display: inline;
+        width: 30vw;
+        float: left;
+        padding: 5px;
+     
+    }
+    .navbar {
+        display: inline;
+        width: 40vw;
+        float: right;
+        clear: all;
+  
+    }
+    .nav-ul {
+        list-style-type: none;
+        clear: all;
+    }
+    .nav-ul li {
+        align-items: left;
+    }
+    .navlinks {
+        font-family: 'Zen Loop', cursive;
+        font-weight: 400;
+        font-size: 20px;
+        display: inline;
+        padding: 5px;
+        float: right;
+        clear: left;
+    }
+    .navlinks a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .navlinks a:hover {
+        background-color: antiquewhite;
+    }
+} */
